@@ -1,0 +1,146 @@
+/* ________ Réinitialisation des styles de base ________ */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* ________ Styles pour l'en-tête ________ */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* ________ Styles pour le corps principal ________ */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+/* ________ Styles pour les titres ________ */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.comment-count {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 4vh;
+  font-size: 3vh;
+}
+
+/* ________ Styles pour les commentaires ________ */
+div.comment {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+div.comment strong {
+  font-weight: bold;
+}
+
+.text {
+  margin-top: 1vh;
+}
+
+.comment-box {
+  border: 1px solid #007bff;
+  background-color: #e7f2ff;
+  padding: 1vh 0vh 0vh 1vh;
+  margin-bottom: 2vh;
+}
+
+/* ________ Styles pour le formulaire ________ */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.comment-form {
+  text-align: center;
+}
+
+.input-pseudo {
+  width: 50vh;
+  box-sizing: border-box;
+}
+
+.input-comment {
+  width: 75vh;
+  box-sizing: border-box;
+}
+
+/* ________ Style message réusite ________ */
+.success-message {
+  background-color: #008000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 4vh;
+}
+
+/* ________ Style Nav Bar ________ */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* ________ Styles pour les liens dans la barre de navigation ________ */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}

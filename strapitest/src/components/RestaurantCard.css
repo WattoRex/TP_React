@@ -1,0 +1,47 @@
+/* RestaurantCard.css */
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: auto;
+}
+
+.categories {
+  margin-top: auto; /* Placez le bloc des catégories en bas */
+  padding-top: 12px; /* Espacement entre les informations du restaurant et les catégories */
+}
+/* 
+.conteneur {
+  display: flex;
+  justify-items: center;
+} */
+
+.restaurant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commentaires",
+  "info": {
+    "singularName": "commentaire",
+    "pluralName": "commentaires",
+    "displayName": "commentaires",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pseudo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "commentaire": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
